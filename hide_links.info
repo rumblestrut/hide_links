@@ -1,0 +1,4 @@
+name = "Hide Links"
+package = "OPRO"
+description = "Hides the links on the navigation to departments that aren't yet in use."
+core = 7.x

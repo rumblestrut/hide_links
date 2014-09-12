@@ -1,0 +1,24 @@
+<?php
+/**
+ * Display help and module information
+ */
+
+function hide_links_help($path, $arg) {
+  $output = ''; // declare the output variable
+  switch ($path) {
+    case "admin/help#hide_links":
+      $output = '<p>' . t("Displays the Hide Links styles.") . '</p>';
+      break;
+  }
+  return $output;
+} // function hide_links_help
+
+
+  /*
+  * Add the CSS and JavaScript to the page
+  */
+function hide_links_init() {
+  global $node;
+  drupal_add_css(drupal_get_path('module', 'hide_links') .'/hide_links.css');
+  drupal_add_js(drupal_get_path('module', 'hide_links') .'/hide_links.js');
+}

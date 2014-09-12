@@ -1,0 +1,11 @@
+/* Hides the links in the navigation for OPRO until time to unveil a new department */
+
+/* City Manager Menu Link */
+
+/* 
+Hiding to test JavaScript option instead of CSS.
+li.menu-item-801 a, li.menu-item-801 a:link, li.menu-item-801 a:hover, li.menu-item-801 a:visited {
+  text-decoration: none;
+  color: black;
+}
+*/
